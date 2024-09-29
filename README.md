@@ -53,4 +53,4 @@ terraform destroy (from the infra directory)
 
 ### Read More
 
-This repository is associated with the following blog HERE
+This repository is associated with the following blog [HERE](https://darryl-ruggles.cloud/serverless-pizza-ordering)
