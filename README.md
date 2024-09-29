@@ -1,7 +1,7 @@
 # serverless-pizza-ordering
 
 ### Purpose
-Example Full-stack Serverless project using ReactJS, Momento Topics, Step Functions, API Gateaway, ECS, Lambda, DynamoDB with streams, and more to build an online pizza shop where the progress of orders is updated automatically in the UI.
+Example Full-stack Serverless project using ReactJS, Momento Topics, Step Functions, API Gateway, ECS, Lambda, DynamoDB with streams, and more to build an online pizza shop where the progress of orders is updated automatically in the UI.
 
 Containers running in ECS fargate which make and deliver the Pizza orders are coded in Rust.
 Lambda functions to handle orders and their progression are coded in Python
