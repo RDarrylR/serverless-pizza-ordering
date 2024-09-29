@@ -1,0 +1,3 @@
+REACT_APP_ORDERING_API=https://XXXXXXXX.execute-api.us-east-1.amazonaws.com/dev/orders
+REACT_APP_MOMENTTO_CACHE=pizza-orders
+REACT_APP_MOMENTTO_TOPIC=order-
