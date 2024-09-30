@@ -43,7 +43,7 @@ To deploy the project, you need to do the following:
 11. Change into the ordering-frontend folder 
 13. run `npm install`
 14. run `npm start`
-15. The Cloud Pizzeria shop should be display.
+15. The Cloud Pizzeria shop should be displayed
 
 ### Cleanup
 
@@ -55,8 +55,5 @@ terraform destroy (from the infra directory)
 
 ### Read More
 
-<<<<<<< HEAD
-This repository is associated with the following blog [HERE](https://darryl-ruggles.cloud/serverless-pizza-ordering)
-=======
 This repository is associated with the following blog https://darryl-ruggles.cloud/serverless-pizza-ordering
->>>>>>> fdd2c1a (update README)
+
