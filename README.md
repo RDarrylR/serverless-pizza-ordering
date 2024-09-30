@@ -36,12 +36,14 @@ To deploy the project, you need to do the following:
 4. Run `terraform init`
 5. run `terraform apply` (and type "yes" when it's done with the plan)
 6. Note the output from the terraform apply is a URL like this: https://1dwy6zvr05.execute-api.us-east-1.amazonaws.com/dev/orders)
-7. Create a .env file in the ordering-frontend\ directory (i.e. ordering-frontend/.env) with contents similar to the included sample-env file in the ordering-frontend folder.
+7. Create a .env file in the ordering-frontend/ directory (i.e. ordering-frontend/.env) with contents similar to the included sample-env file in the ordering-frontend folder.
 8. In your .env file replace the REACT_APP_ORDERING_API value with the output value from terraform.
-9. Change into the ordering-frontend folder
-10. run `npm install`
-11. run `npm start`
-12. The Cloud Pizzeria shop should be display.
+9. Go to the ordering-backend/containers/fargate_rust_order_delivery directory and run `./create_ecr_and_push.sh`
+10. Go to the ordering-backend/containers/fargate_rust_order_processor directory and run `./create_ecr_and_push.sh`
+11. Change into the ordering-frontend folder 
+13. run `npm install`
+14. run `npm start`
+15. The Cloud Pizzeria shop should be display.
 
 ### Cleanup
 
@@ -53,4 +55,8 @@ terraform destroy (from the infra directory)
 
 ### Read More
 
+<<<<<<< HEAD
 This repository is associated with the following blog [HERE](https://darryl-ruggles.cloud/serverless-pizza-ordering)
+=======
+This repository is associated with the following blog https://darryl-ruggles.cloud/serverless-pizza-ordering
+>>>>>>> fdd2c1a (update README)
